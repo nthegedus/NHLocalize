@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+
+"LABEL" = "português Brasil - UILabel";
+"BUTTON" = "português Brasil - UIButton";
+"TEXTFIELD" = "português Brasil - UITextField";
+"TEXTVIEW" = "português Brasil - UITextView";
+"UIIMAGEVIEW" = "br-lgflag.gif";
