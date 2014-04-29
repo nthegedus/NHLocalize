@@ -25,13 +25,13 @@
 		981516BB190FC7490083BF28 /* UILabel+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 981516B4190FC7490083BF28 /* UILabel+NHLocalize.m */; };
 		981516BC190FC7490083BF28 /* UITextField+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 981516B6190FC7490083BF28 /* UITextField+NHLocalize.m */; };
 		981516BD190FC7490083BF28 /* UITextView+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 981516B8190FC7490083BF28 /* UITextView+NHLocalize.m */; };
-		981516C8190FDB2D0083BF28 /* br-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C2190FDB2D0083BF28 /* br-lgflag.gif */; };
-		981516C9190FDB2D0083BF28 /* fr-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C3190FDB2D0083BF28 /* fr-lgflag.gif */; };
-		981516CA190FDB2D0083BF28 /* gm-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C4190FDB2D0083BF28 /* gm-lgflag.gif */; };
-		981516CB190FDB2D0083BF28 /* it-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C5190FDB2D0083BF28 /* it-lgflag.gif */; };
-		981516CC190FDB2D0083BF28 /* sp-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C6190FDB2D0083BF28 /* sp-lgflag.gif */; };
-		981516CD190FDB2D0083BF28 /* us-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516C7190FDB2D0083BF28 /* us-lgflag.gif */; };
 		981516DC190FDDEB0083BF28 /* UIImageView+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 981516DB190FDDEB0083BF28 /* UIImageView+NHLocalize.m */; };
+		981516E4190FE0FA0083BF28 /* br-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516DE190FE0FA0083BF28 /* br-lgflag.gif */; };
+		981516E5190FE0FA0083BF28 /* fr-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516DF190FE0FA0083BF28 /* fr-lgflag.gif */; };
+		981516E6190FE0FA0083BF28 /* gm-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E0190FE0FA0083BF28 /* gm-lgflag.gif */; };
+		981516E7190FE0FA0083BF28 /* it-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E1190FE0FA0083BF28 /* it-lgflag.gif */; };
+		981516E8190FE0FA0083BF28 /* sp-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E2190FE0FA0083BF28 /* sp-lgflag.gif */; };
+		981516E9190FE0FA0083BF28 /* us-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E3190FE0FA0083BF28 /* us-lgflag.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,12 +78,6 @@
 		981516BE190FC8BF0083BF28 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		981516BF190FC8BF0083BF28 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		981516C0190FC8BF0083BF28 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		981516C2190FDB2D0083BF28 /* br-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "br-lgflag.gif"; sourceTree = "<group>"; };
-		981516C3190FDB2D0083BF28 /* fr-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fr-lgflag.gif"; sourceTree = "<group>"; };
-		981516C4190FDB2D0083BF28 /* gm-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gm-lgflag.gif"; sourceTree = "<group>"; };
-		981516C5190FDB2D0083BF28 /* it-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "it-lgflag.gif"; sourceTree = "<group>"; };
-		981516C6190FDB2D0083BF28 /* sp-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sp-lgflag.gif"; sourceTree = "<group>"; };
-		981516C7190FDB2D0083BF28 /* us-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "us-lgflag.gif"; sourceTree = "<group>"; };
 		981516CE190FDC1D0083BF28 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		981516CF190FDC1D0083BF28 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		981516D0190FDC1D0083BF28 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -98,6 +92,12 @@
 		981516D9190FDC3A0083BF28 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		981516DA190FDDEB0083BF28 /* UIImageView+NHLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NHLocalize.h"; sourceTree = "<group>"; };
 		981516DB190FDDEB0083BF28 /* UIImageView+NHLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NHLocalize.m"; sourceTree = "<group>"; };
+		981516DE190FE0FA0083BF28 /* br-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "br-lgflag.gif"; sourceTree = "<group>"; };
+		981516DF190FE0FA0083BF28 /* fr-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fr-lgflag.gif"; sourceTree = "<group>"; };
+		981516E0190FE0FA0083BF28 /* gm-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gm-lgflag.gif"; sourceTree = "<group>"; };
+		981516E1190FE0FA0083BF28 /* it-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "it-lgflag.gif"; sourceTree = "<group>"; };
+		981516E2190FE0FA0083BF28 /* sp-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sp-lgflag.gif"; sourceTree = "<group>"; };
+		981516E3190FE0FA0083BF28 /* us-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "us-lgflag.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 		9815166D190FC6170083BF28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				981516C1190FDB2D0083BF28 /* Flags */,
+				981516DD190FE0FA0083BF28 /* Flags */,
 				9815166E190FC6170083BF28 /* NHLocalize-Info.plist */,
 				9815166F190FC6170083BF28 /* Localizable.strings */,
 				98151672190FC6170083BF28 /* main.m */,
@@ -217,18 +217,17 @@
 			path = ../../NHLocalize;
 			sourceTree = "<group>";
 		};
-		981516C1190FDB2D0083BF28 /* Flags */ = {
+		981516DD190FE0FA0083BF28 /* Flags */ = {
 			isa = PBXGroup;
 			children = (
-				981516C2190FDB2D0083BF28 /* br-lgflag.gif */,
-				981516C3190FDB2D0083BF28 /* fr-lgflag.gif */,
-				981516C4190FDB2D0083BF28 /* gm-lgflag.gif */,
-				981516C5190FDB2D0083BF28 /* it-lgflag.gif */,
-				981516C6190FDB2D0083BF28 /* sp-lgflag.gif */,
-				981516C7190FDB2D0083BF28 /* us-lgflag.gif */,
+				981516DE190FE0FA0083BF28 /* br-lgflag.gif */,
+				981516DF190FE0FA0083BF28 /* fr-lgflag.gif */,
+				981516E0190FE0FA0083BF28 /* gm-lgflag.gif */,
+				981516E1190FE0FA0083BF28 /* it-lgflag.gif */,
+				981516E2190FE0FA0083BF28 /* sp-lgflag.gif */,
+				981516E3190FE0FA0083BF28 /* us-lgflag.gif */,
 			);
-			name = Flags;
-			path = ../../../../../../Desktop/Flags;
+			path = Flags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,14 +314,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9815167F190FC6170083BF28 /* Images.xcassets in Resources */,
-				981516CA190FDB2D0083BF28 /* gm-lgflag.gif in Resources */,
-				981516CD190FDB2D0083BF28 /* us-lgflag.gif in Resources */,
+				981516E6190FE0FA0083BF28 /* gm-lgflag.gif in Resources */,
+				981516E9190FE0FA0083BF28 /* us-lgflag.gif in Resources */,
 				98151671190FC6170083BF28 /* Localizable.strings in Resources */,
-				981516CB190FDB2D0083BF28 /* it-lgflag.gif in Resources */,
+				981516E7190FE0FA0083BF28 /* it-lgflag.gif in Resources */,
 				9815167A190FC6170083BF28 /* Main.storyboard in Resources */,
-				981516C9190FDB2D0083BF28 /* fr-lgflag.gif in Resources */,
-				981516CC190FDB2D0083BF28 /* sp-lgflag.gif in Resources */,
-				981516C8190FDB2D0083BF28 /* br-lgflag.gif in Resources */,
+				981516E5190FE0FA0083BF28 /* fr-lgflag.gif in Resources */,
+				981516E8190FE0FA0083BF28 /* sp-lgflag.gif in Resources */,
+				981516E4190FE0FA0083BF28 /* br-lgflag.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
