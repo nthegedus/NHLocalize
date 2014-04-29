@@ -19,6 +19,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    UILabel *_mylabel;
+    [_mylabel setText:NSLocalizedString(@"Key", @"Comment")];
+    
 }
 
 - (void)didReceiveMemoryWarning
