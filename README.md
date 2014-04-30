@@ -8,9 +8,24 @@ NHLocalize help you to localize your apps, without coding for all propreties lik
 [_mylabel setText:NSLocalizedString(@"key", @"comment")];
 ```
 
-Using NHLocalize you can do it through Storyboard.
+Using NHLocalize you can do it through Storyboard....
 
 ##How to use?
+
+
+### Installation with CocoaPods
+
+I recommend you to take a look at [CocoaPods](http://cocoapods.org) and use it for dependency management in your iOS projects.
+
+To add NHLocalize to your project it is necessary that the following lines are in your Podfile:
+
+```ruby
+platform :ios, '7.0'
+pod "NHLocalize", "~> 1.0.0"
+```
+
+### Installation without CocoaPods
+
   1. Drag an drop NHLocalize folder into your project;
   2. Create the `Localizable.strings`, as you know. If you don't read it first: <a href>(http://www.raywenderlich.com/2876/localization-tutorial-for-ios)</a>
   
