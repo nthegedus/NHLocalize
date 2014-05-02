@@ -32,6 +32,7 @@
 		981516E7190FE0FA0083BF28 /* it-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E1190FE0FA0083BF28 /* it-lgflag.gif */; };
 		981516E8190FE0FA0083BF28 /* sp-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E2190FE0FA0083BF28 /* sp-lgflag.gif */; };
 		981516E9190FE0FA0083BF28 /* us-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E3190FE0FA0083BF28 /* us-lgflag.gif */; };
+		9844502C191446C300E4C509 /* UISegmentedControl+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844502B191446C300E4C509 /* UISegmentedControl+NHLocalize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		981516E1190FE0FA0083BF28 /* it-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "it-lgflag.gif"; sourceTree = "<group>"; };
 		981516E2190FE0FA0083BF28 /* sp-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sp-lgflag.gif"; sourceTree = "<group>"; };
 		981516E3190FE0FA0083BF28 /* us-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "us-lgflag.gif"; sourceTree = "<group>"; };
+		9844502A191446C300E4C509 /* UISegmentedControl+NHLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+NHLocalize.h"; sourceTree = "<group>"; };
+		9844502B191446C300E4C509 /* UISegmentedControl+NHLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+NHLocalize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,8 @@
 				981516B8190FC7490083BF28 /* UITextView+NHLocalize.m */,
 				981516DA190FDDEB0083BF28 /* UIImageView+NHLocalize.h */,
 				981516DB190FDDEB0083BF28 /* UIImageView+NHLocalize.m */,
+				9844502A191446C300E4C509 /* UISegmentedControl+NHLocalize.h */,
+				9844502B191446C300E4C509 /* UISegmentedControl+NHLocalize.m */,
 			);
 			name = NHLocalize;
 			path = ../../NHLocalize;
@@ -347,6 +352,7 @@
 				981516BD190FC7490083BF28 /* UITextView+NHLocalize.m in Sources */,
 				981516BB190FC7490083BF28 /* UILabel+NHLocalize.m in Sources */,
 				981516DC190FDDEB0083BF28 /* UIImageView+NHLocalize.m in Sources */,
+				9844502C191446C300E4C509 /* UISegmentedControl+NHLocalize.m in Sources */,
 				98151673190FC6170083BF28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,3 +5,5 @@
 "TEXTFIELD" = "Français - UITextField";
 "TEXTVIEW" = "Français - UITextView";
 "UIIMAGEVIEW" = "fr-lgflag.gif";
+"SEGMENTLEFT" = "English 1";
+"SEGMENTRIGHT" = "English 2";

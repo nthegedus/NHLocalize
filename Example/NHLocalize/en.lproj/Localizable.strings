@@ -5,3 +5,5 @@
 "TEXTFIELD" = "English - UITextField";
 "TEXTVIEW" = "English - UITextView";
 "UIIMAGEVIEW" = "us-lgflag.gif";
+"SEGMENTLEFT" = "English 1";
+"SEGMENTRIGHT" = "English 2";

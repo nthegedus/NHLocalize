@@ -1,7 +1,9 @@
 /* Localized versions of Info.plist keys */
 
-"LABEL" = "English - UILabel";
-"BUTTON" = "English - UIButton";
-"TEXTFIELD" = "English - UITextField";
-"TEXTVIEW" = "English - UITextView";
+"LABEL" = "Español - UILabel";
+"BUTTON" = "Español - UIButton";
+"TEXTFIELD" = "Español - UITextField";
+"TEXTVIEW" = "Español - UITextView";
 "UIIMAGEVIEW" = "sp-lgflag.gif";
+"SEGMENTLEFT" = "Español 1";
+"SEGMENTRIGHT" = "Español 2";
