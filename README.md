@@ -37,8 +37,13 @@ pod "NHLocalize", "~> 1.0.0"
   <img src="https://github.com/nthegedus/NHLocalize/blob/master/Example/NHLocalize/User%20Defined.png?raw=true"/>
   
   
+  ### Localize UISegmentedControl
+  To Localize an UISegmentedControl you need follow step 3 below and add a sufix on your VALUE, like this: "-0" or "-1" or "-2" (without quotes), where the number is relative to index from your SegmentControl.
+  
+  Example: `MYKEY-0` or `MYOTHERKEY-1`
+
   ##Note
 
-  You can use it with <b>UILabel</b>, <b>UIButton</b>, <b>UITextField</b>, <b>UITextView</b> and <b>UIImageView</b>. 
+  You can use it with <b>UILabel</b>, <b>UIButton</b>, <b>UITextField</b>, <b>UITextView</b>, <b>UIImageView</b> and <b>UISegmentedControl</b>. 
   
   Enjoy :)
