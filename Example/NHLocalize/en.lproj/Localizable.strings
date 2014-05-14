@@ -3,5 +3,6 @@
 "LABEL" = "English - UILabel";
 "BUTTON" = "English - UIButton";
 "TEXTFIELD" = "English - UITextField";
+"TEXTFIELDPLACEHOLDER" = "English - UITextField Placeholder";
 "TEXTVIEW" = "English - UITextView";
 "UIIMAGEVIEW" = "us-lgflag.gif";

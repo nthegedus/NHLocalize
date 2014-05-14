@@ -3,5 +3,6 @@
 "LABEL" = "Deutsch - UILabel";
 "BUTTON" = "Deutsch - UIButton";
 "TEXTFIELD" = "Deutsch - UITextField";
+"TEXTFIELDPLACEHOLDER" = "Deutsch - UITextField Placeholder";
 "TEXTVIEW" = "Deutsch - UITextView";
 "UIIMAGEVIEW" = "gm-lgflag.gif";

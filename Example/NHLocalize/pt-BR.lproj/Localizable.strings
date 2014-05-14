@@ -3,5 +3,6 @@
 "LABEL" = "português Brasil - UILabel";
 "BUTTON" = "português Brasil - UIButton";
 "TEXTFIELD" = "português Brasil - UITextField";
+"TEXTFIELDPLACEHOLDER" = "português Brasil - UITextField Placeholder";
 "TEXTVIEW" = "português Brasil - UITextView";
 "UIIMAGEVIEW" = "br-lgflag.gif";
