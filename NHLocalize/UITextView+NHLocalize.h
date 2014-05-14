@@ -8,6 +8,6 @@
 
 @interface UITextView (NHLocalize)
 
-@property (nonatomic, copy) NSString *localize;
+@property (nonatomic, copy) NSString *nhlTextView;
 
 @end

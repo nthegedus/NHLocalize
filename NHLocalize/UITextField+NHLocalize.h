@@ -10,6 +10,7 @@
 
 @interface UITextField (NHLocalize)
 
-@property (nonatomic, copy) NSString *localize;
+@property (nonatomic, copy) NSString *nhlTextField;
+@property (nonatomic, copy) NSString *nhlTextFieldPlaceholder;
 
 @end

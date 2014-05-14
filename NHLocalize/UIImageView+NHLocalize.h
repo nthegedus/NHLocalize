@@ -10,6 +10,6 @@
 
 @interface UIImageView (NHLocalize)
 
-@property (nonatomic, copy) NSString *localize;
+@property (nonatomic, copy) NSString *nhlImageView;
 
 @end

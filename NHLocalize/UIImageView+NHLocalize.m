@@ -10,15 +10,17 @@
 
 @implementation UIImageView (NHLocalize)
 
--(NSString *)localize {
-    return self.localize;
+#pragma mark - Localize ImageView
+
+-(NSString *)nhlImageView {
+    return self.nhlImageView;
 }
 
--(void)setLocalize:(NSString *)keyLocalize{
+-(void)setNhlImageView:(NSString *)nhlImageView{
     
-    NSString *imageName = NSLocalizedString(keyLocalize, nil);
+    NSString *imageName = NSLocalizedString(nhlImageView, nil);
     [self setImage:[UIImage imageNamed:imageName]];
-    
+
 }
 
 @end

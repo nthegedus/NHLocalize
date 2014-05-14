@@ -10,6 +10,6 @@
 
 @interface UIButton (NHLocalize)
 
-@property (nonatomic, copy) NSString *localize;
+@property (nonatomic, copy) NSString *nhlButton;
 
 @end

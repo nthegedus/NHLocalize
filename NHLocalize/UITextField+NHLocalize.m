@@ -10,13 +10,30 @@
 
 @implementation UITextField (NHLocalize)
 
--(NSString *)localize {
+#pragma mark - Localize Text
+
+-(NSString *)nhlTextField {
     return self.text;
 }
 
--(void)setLocalize:(NSString *)keyLocalize{
+-(void)setNhlTextField:(NSString *)nhlTextField{
     
-    [self setText:NSLocalizedString(keyLocalize, nil)];
+    [self setText:NSLocalizedString(nhlTextField, nil)];
+    
+}
+
+
+#pragma mark - Localize Placeholder
+
+-(NSString *)nhlTextFieldPlaceholder{
+    
+    return self.placeholder;
+    
+}
+
+-(void)setNhlTextFieldPlaceholder:(NSString *)nhlTextFieldPlaceholder{
+    
+    [self setText:NSLocalizedString(nhlTextFieldPlaceholder, nil)];
     
 }
 

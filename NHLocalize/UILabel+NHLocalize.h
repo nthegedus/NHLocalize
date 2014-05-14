@@ -10,6 +10,6 @@
 
 @interface UILabel (NHLocalize)
 
-@property (nonatomic, copy) NSString *localize;
+@property (nonatomic, copy) NSString *nhlLabel;
 
 @end

@@ -10,13 +10,15 @@
 
 @implementation UIButton (NHLocalize)
 
--(NSString *)localize {
+#pragma mark - Localize Text
+
+-(NSString *)nhlButton {
     return self.titleLabel.text;
 }
 
--(void)setLocalize:(NSString *)keyLocalize{
+-(void)setNhlButton:(NSString *)nhlButton{
     
-    [self setTitle:NSLocalizedString(keyLocalize, nil) forState:UIControlStateNormal];
+    [self setTitle:NSLocalizedString(nhlButton, nil) forState:UIControlStateNormal];
     
 }
 

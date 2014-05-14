@@ -8,13 +8,16 @@
 
 @implementation UITextView (NHLocalize)
 
--(NSString *)localize {
+#pragma mark - Localize Text
+
+-(NSString *)nhlTextView {
     return self.text;
 }
 
--(void)setLocalize:(NSString *)keyLocalize{
+-(void)setNhlTextView:(NSString *)nhlTextView{
     
-    [self setText:NSLocalizedString(keyLocalize, @"")];
+    [self setText:NSLocalizedString(nhlTextView, nil)];
+
     
 }
 

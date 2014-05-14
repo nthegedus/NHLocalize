@@ -10,14 +10,16 @@
 
 @implementation UILabel (NHLocalize)
 
--(NSString *)localize {
+#pragma mark - Localize Text
+
+-(NSString *)nhlLabel {
     return self.text;
 }
 
--(void)setLocalize:(NSString *)keyLocalize{
+-(void)setNhlLabel:(NSString *)nhlLabel{
     
-    [self setText:NSLocalizedString(keyLocalize, nil)];
-    
+    [self setText:NSLocalizedString(nhlLabel, nil)];
+
 }
 
 @end
