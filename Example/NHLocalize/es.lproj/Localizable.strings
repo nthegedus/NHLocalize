@@ -1,8 +1,10 @@
 /* Localized versions of Info.plist keys */
 
-"LABEL" = "Spanish - UILabel";
-"BUTTON" = "Spanish - UIButton";
-"TEXTFIELD" = "Spanish - UITextField";
-"TEXTFIELDPLACEHOLDER" = "Spanish - UITextField Placeholder";
-"TEXTVIEW" = "Spanish - UITextView";
+"LABEL" = "Español - UILabel";
+"BUTTON" = "Español - UIButton";
+"BUTTON-Highlighted" = "Español - UIButton Highlighted";
+"BUTTON-Selected" = "Español - UIButton Selected";
+"TEXTFIELD" = "Español - UITextField";
+"TEXTFIELDPLACEHOLDER" = "Español - UITextField Placeholder";
+"TEXTVIEW" = "Español - UITextView";
 "UIIMAGEVIEW" = "sp-lgflag.gif";

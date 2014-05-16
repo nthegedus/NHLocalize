@@ -2,6 +2,8 @@
 
 "LABEL" = "Deutsch - UILabel";
 "BUTTON" = "Deutsch - UIButton";
+"BUTTON-Highlighted" = "Deutsch - UIButton Highlighted";
+"BUTTON-Selected" = "Deutsch - UIButton Selected";
 "TEXTFIELD" = "Deutsch - UITextField";
 "TEXTFIELDPLACEHOLDER" = "Deutsch - UITextField Placeholder";
 "TEXTVIEW" = "Deutsch - UITextView";

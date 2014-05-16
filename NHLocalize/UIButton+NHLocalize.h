@@ -10,6 +10,11 @@
 
 @interface UIButton (NHLocalize)
 
-@property (nonatomic, copy) NSString *nhlButton;
+@property (nonatomic, copy) NSString *nhlButtonNormalTitle;
+@property (nonatomic, copy) NSString *nhlButtonHighlightedTitle;
+@property (nonatomic, copy) NSString *nhlButtonDisabledTitle;
+@property (nonatomic, copy) NSString *nhlButtonSelectedTitle;
+@property (nonatomic, copy) NSString *nhlButtonApplicationTitle;
+@property (nonatomic, copy) NSString *nhlButtonReservedTitle;
 
 @end

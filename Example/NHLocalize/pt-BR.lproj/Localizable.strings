@@ -2,6 +2,8 @@
 
 "LABEL" = "português Brasil - UILabel";
 "BUTTON" = "português Brasil - UIButton";
+"BUTTON-Highlighted" = "português Brasil - UIButton Highlighted";
+"BUTTON-Selected" = "português Brasil - UIButton Selected";
 "TEXTFIELD" = "português Brasil - UITextField";
 "TEXTFIELDPLACEHOLDER" = "português Brasil - UITextField Placeholder";
 "TEXTVIEW" = "português Brasil - UITextView";

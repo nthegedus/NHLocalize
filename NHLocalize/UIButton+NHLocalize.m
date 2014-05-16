@@ -10,15 +10,75 @@
 
 @implementation UIButton (NHLocalize)
 
-#pragma mark - Localize Text
+#pragma mark - Localize Text Normal Title
 
--(NSString *)nhlButton {
+-(NSString *)nhlButtonNormalTitle {
     return self.titleLabel.text;
 }
 
--(void)setNhlButton:(NSString *)nhlButton{
+-(void)setNhlButtonNormalTitle:(NSString *)nhlButtonNormalTitle{
     
-    [self setTitle:NSLocalizedString(nhlButton, nil) forState:UIControlStateNormal];
+    [self setTitle:NSLocalizedString(nhlButtonNormalTitle, nil) forState:UIControlStateNormal];
+    
+}
+
+#pragma mark - Localize Text Highlighted Title
+
+-(NSString *)nhlButtonHighlightedTitle {
+    return self.titleLabel.text;
+}
+
+-(void)setNhlButtonHighlightedTitle:(NSString *)nhlButtonHighlightedTitle{
+    
+    [self setTitle:NSLocalizedString(nhlButtonHighlightedTitle, nil) forState:UIControlStateHighlighted];
+    
+}
+
+#pragma mark - Localize Text Disabled Title
+
+-(NSString *)nhlButtonDisabledTitle {
+    return self.titleLabel.text;
+}
+
+-(void)setNhlButtonDisabledTitle:(NSString *)nhlButtonDisabledTitle{
+    
+    [self setTitle:NSLocalizedString(nhlButtonDisabledTitle, nil) forState:UIControlStateDisabled];
+    
+}
+
+#pragma mark - Localize Text Selected Title
+
+-(NSString *)nhlButtonSelectedTitle {
+    return self.titleLabel.text;
+}
+
+-(void)setNhlButtonSelectedTitle:(NSString *)nhlButtonSelectedTitle{
+    
+    [self setTitle:NSLocalizedString(nhlButtonSelectedTitle, nil) forState:UIControlStateSelected];
+    
+}
+
+#pragma mark - Localize Text Application Title
+
+-(NSString *)nhlButtonApplicationTitle {
+    return self.titleLabel.text;
+}
+
+-(void)setNhlButtonApplicationTitle:(NSString *)nhlButtonApplicationTitle{
+    
+    [self setTitle:NSLocalizedString(nhlButtonApplicationTitle, nil) forState:UIControlStateApplication];
+    
+}
+
+#pragma mark - Localize Text Reserved Title
+
+-(NSString *)nhlButtonReservedTitle {
+    return self.titleLabel.text;
+}
+
+-(void)setNhlButtonReservedTitle:(NSString *)nhlButtonReservedTitle{
+    
+    [self setTitle:NSLocalizedString(nhlButtonReservedTitle, nil) forState:UIControlStateReserved];
     
 }
 

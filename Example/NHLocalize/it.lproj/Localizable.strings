@@ -2,6 +2,8 @@
 
 "LABEL" = "Italiano - UILabel";
 "BUTTON" = "Italiano - UIButton";
+"BUTTON-Highlighted" = "Italiano - UIButton Highlighted";
+"BUTTON-Selected" = "Italiano - UIButton Selected";
 "TEXTFIELD" = "Italiano - UITextField";
 "TEXTFIELDPLACEHOLDER" = "Italiano - UITextField Placeholder";
 "TEXTVIEW" = "Italiano - UITextView";
