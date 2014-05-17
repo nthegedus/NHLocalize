@@ -44,38 +44,41 @@ Now, go to your `Storyboard`, select you object (in my case is an UILabel) and o
   <img src="https://github.com/nthegedus/NHLocalize/blob/master/Example/NHLocalize/User%20Defined.png?raw=true"/>
   
   
-  ### Localize UIButton
-  With UIButton you can localize in all ControlStates.
-  For `UIControlStateNormal` use: `nhlButtonNormalTitle` on Key Path.
-  For `UIControlStateHighlighted` use: `nhlButtonHighlightedTitle` on Key Path.
-  For `UIControlStateDisabled` use: `nhlButtonDisabledTitle` on Key Path.
-  For `UIControlStateSelected` use: `nhlButtonSelectedTitle` on Key Path.
-  For `UIControlStateApplication` use: `nhlButtonApplicationTitle` on Key Path.
-  For `UIControlStateReserved` use: `nhlButtonReservedTitle` on Key Path.
-  
-  ### Localize UIImageView
-  For UIImageView you need use `nhlImageView` on Key Path.
-  
-  ### Localize UILabel
-  For UILabel you need use `nhlLabel` on Key Path.
-  
-  ### Localize UISegmentedControl
-  To Localize an UISegmentedControl you need follow step "Create Localizable.strings" and add a sufix on your KEY in `Localizable.string` and VALUE on `Storyboard`, like this: "-0" or "-1" or "-2" (without quotes), where the number is relative to index from your SegmentControl.
-  
-  Example: `MYKEY-0` or `MYOTHERKEY-1`
-  
-  ### Localize UITextField
-  You can localize the text and the placeholder.
-  For text use `nhlTextField` on Key Path.
-  For placeholder use `nhlTextFieldPlaceholder` on Key Path.
-  
-  ### Localize UITextView
-  For UITextView use `nhlTextView` on Key Path
+### Localize UIButton
+With UIButton you can localize in all ControlStates.
+For `UIControlStateNormal` use: `nhlButtonNormalTitle` on Key Path.
 
-  ##Note
+For `UIControlStateHighlighted` use: `nhlButtonHighlightedTitle` on Key Path.
 
-  You can use it with <b>UILabel</b>, <b>UIButton</b>, <b>UITextField</b>, <b>UITextView</b>, <b>UIImageView</b> and <b>UISegmentedControl</b>.
+For `UIControlStateDisabled` use: `nhlButtonDisabledTitle` on Key Path.
+
+For `UIControlStateSelected` use: `nhlButtonSelectedTitle` on Key Path. 
+
+For `UIControlStateApplication` use: `nhlButtonApplicationTitle` on Key Path.
+
+For `UIControlStateReserved` use: `nhlButtonReservedTitle` on Key Path.
   
-  Test and working on <b>iOS 6</b> and <b>iOS 7</b>.
+### Localize UIImageView
+For UIImageView you need use `nhlImageView` on Key Path.
   
-  Enjoy :)
+### Localize UILabel
+For UILabel you need use `nhlLabel` on Key Path.
+  
+### Localize UISegmentedControl
+To Localize an UISegmentedControl you need follow step "Create Localizable.strings" and add a sufix on your KEY in `Localizable.string` and VALUE on `Storyboard`, like this: "-0" or "-1" or "-2" (without quotes), where the number is relative to index from your SegmentControl.
+  
+Example: `MYKEY-0` or `MYOTHERKEY-1`
+  
+### Localize UITextField
+You can localize the text and the placeholder.
+For text use `nhlTextField` on Key Path.
+For placeholder use `nhlTextFieldPlaceholder` on Key Path.
+  
+### Localize UITextView
+For UITextView use `nhlTextView` on Key Path
+
+##Note
+You can use it with <b>UILabel</b>, <b>UIButton</b>, <b>UITextField</b>, <b>UITextView</b>, <b>UIImageView</b> and <b>UISegmentedControl</b>.
+Test and working on <b>iOS 6</b> and <b>iOS 7</b>.
+  
+Enjoy :)
