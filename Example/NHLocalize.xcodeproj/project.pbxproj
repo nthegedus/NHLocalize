@@ -32,6 +32,7 @@
 		981516E7190FE0FA0083BF28 /* it-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E1190FE0FA0083BF28 /* it-lgflag.gif */; };
 		981516E8190FE0FA0083BF28 /* sp-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E2190FE0FA0083BF28 /* sp-lgflag.gif */; };
 		981516E9190FE0FA0083BF28 /* us-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981516E3190FE0FA0083BF28 /* us-lgflag.gif */; };
+		983DE5291927FA630051715E /* UISegmentedControl+NHLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DE5281927FA630051715E /* UISegmentedControl+NHLocalize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		981516E1190FE0FA0083BF28 /* it-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "it-lgflag.gif"; sourceTree = "<group>"; };
 		981516E2190FE0FA0083BF28 /* sp-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sp-lgflag.gif"; sourceTree = "<group>"; };
 		981516E3190FE0FA0083BF28 /* us-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "us-lgflag.gif"; sourceTree = "<group>"; };
+		983DE5271927FA630051715E /* UISegmentedControl+NHLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+NHLocalize.h"; sourceTree = "<group>"; };
+		983DE5281927FA630051715E /* UISegmentedControl+NHLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+NHLocalize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,14 +207,16 @@
 			children = (
 				981516AF190FC7490083BF28 /* UIButton+NHLocalize.h */,
 				981516B0190FC7490083BF28 /* UIButton+NHLocalize.m */,
+				981516DA190FDDEB0083BF28 /* UIImageView+NHLocalize.h */,
+				981516DB190FDDEB0083BF28 /* UIImageView+NHLocalize.m */,
 				981516B3190FC7490083BF28 /* UILabel+NHLocalize.h */,
 				981516B4190FC7490083BF28 /* UILabel+NHLocalize.m */,
+				983DE5271927FA630051715E /* UISegmentedControl+NHLocalize.h */,
+				983DE5281927FA630051715E /* UISegmentedControl+NHLocalize.m */,
 				981516B5190FC7490083BF28 /* UITextField+NHLocalize.h */,
 				981516B6190FC7490083BF28 /* UITextField+NHLocalize.m */,
 				981516B7190FC7490083BF28 /* UITextView+NHLocalize.h */,
 				981516B8190FC7490083BF28 /* UITextView+NHLocalize.m */,
-				981516DA190FDDEB0083BF28 /* UIImageView+NHLocalize.h */,
-				981516DB190FDDEB0083BF28 /* UIImageView+NHLocalize.m */,
 			);
 			name = NHLocalize;
 			path = ../../NHLocalize;
@@ -347,6 +352,7 @@
 				981516BD190FC7490083BF28 /* UITextView+NHLocalize.m in Sources */,
 				981516BB190FC7490083BF28 /* UILabel+NHLocalize.m in Sources */,
 				981516DC190FDDEB0083BF28 /* UIImageView+NHLocalize.m in Sources */,
+				983DE5291927FA630051715E /* UISegmentedControl+NHLocalize.m in Sources */,
 				98151673190FC6170083BF28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

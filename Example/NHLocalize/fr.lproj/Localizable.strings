@@ -7,4 +7,6 @@
 "TEXTFIELD" = "Français - UITextField";
 "TEXTFIELDPLACEHOLDER" = "Français - UITextField Placeholder";
 "TEXTVIEW" = "Français - UITextView";
+"SEGMENT-0" = "Français - Segment Left";
+"SEGMENT-1" = "Français - Segment Right";
 "UIIMAGEVIEW" = "fr-lgflag.gif";

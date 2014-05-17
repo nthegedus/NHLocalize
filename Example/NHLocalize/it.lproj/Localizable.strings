@@ -7,4 +7,6 @@
 "TEXTFIELD" = "Italiano - UITextField";
 "TEXTFIELDPLACEHOLDER" = "Italiano - UITextField Placeholder";
 "TEXTVIEW" = "Italiano - UITextView";
+"SEGMENT-0" = "Italiano - Segment Left";
+"SEGMENT-1" = "Italiano - Segment Right";
 "UIIMAGEVIEW" = "it-lgflag.gif";

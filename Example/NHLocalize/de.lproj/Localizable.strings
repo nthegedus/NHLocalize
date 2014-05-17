@@ -7,4 +7,6 @@
 "TEXTFIELD" = "Deutsch - UITextField";
 "TEXTFIELDPLACEHOLDER" = "Deutsch - UITextField Placeholder";
 "TEXTVIEW" = "Deutsch - UITextView";
+"SEGMENT-0" = "Deutsch - Segment Left";
+"SEGMENT-1" = "Deutsch - Segment Right";
 "UIIMAGEVIEW" = "gm-lgflag.gif";
