@@ -21,7 +21,7 @@ To add NHLocalize to your project it is necessary that the following lines are i
 
 ```ruby
 platform :ios, '7.0'
-pod "NHLocalize", "~> 1.0.0"
+pod "NHLocalize", "~> 1.1.0"
 ```
 
 ### Installation without CocoaPods
